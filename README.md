@@ -7,7 +7,7 @@ That pattern allows building and defining sequential tasks in a clear and unders
 ## Installation
 
 ```bash
-composer require gameplayjdk/php-file-cache
+composer require gameplayjdk/task-chain
 ```
 
 ## Usage
