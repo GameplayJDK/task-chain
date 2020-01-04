@@ -1,0 +1,21 @@
+{
+  "name": "gameplayjdk/task-chain",
+  "description": "Small library for the task chain pattern.",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "GameplayJDK",
+      "email": "github@gameplayjdk.de"
+    }
+  ],
+  "require": {
+    "php": ">= 7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TaskChain\\": "src/"
+    }
+  }
+}
