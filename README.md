@@ -2,6 +2,8 @@
 
 Small library for the task chain pattern.
 
+That pattern allows building and defining sequential tasks in a clear and understandable, yet extensible way.
+
 ## Installation
 
 ```bash
