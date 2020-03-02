@@ -170,7 +170,6 @@ class TaskChain implements TaskChainInterface
             $this->collection[] = $task;
         } else {
             while (array_key_exists($priority, $this->collection)) {
-                echo $priority;
                 $priority++;
             }
 
@@ -189,7 +188,7 @@ class TaskChain implements TaskChainInterface
         $collection = $this->collection;
 
         if (!ksort($collection, SORT_NUMERIC)) {
-            throw new TaskException('Task collection asort() failed.');
+            throw new TaskException('Task collection ksort() failed.');
         }
 
         return array_values($collection);
